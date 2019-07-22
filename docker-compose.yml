@@ -1,0 +1,11 @@
+version: '3.6'
+
+services:
+  app:
+    container_name: app
+    image: maven:3.6.1-jdk-8-alpine
+    volumes:
+    - ~/.m2:/root/.m2
+    - .:/ws
+    working_dir: /ws
+    entrypoint: 'tail -f'
