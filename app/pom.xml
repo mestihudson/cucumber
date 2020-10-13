@@ -17,7 +17,7 @@
     <version.cucumber-picocontainer>4.4.0</version.cucumber-picocontainer>
     <version.picocontainer>2.15</version.picocontainer>
     <version.assertj-core>3.11.1</version.assertj-core>
-    <version.junit>4.12</version.junit>
+    <version.junit>4.13.1</version.junit>
   </properties>
 
   <dependencies>
